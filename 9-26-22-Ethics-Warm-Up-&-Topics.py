@@ -1,72 +1,87 @@
-print("""Components of a Computer System
-- MENU -
-`````````
-Please choose one of the terms below, and press enter for the definition.
-1) Patches
-2) Upgrades
-3) Updates
-4) Releases
-5) Hardware
-6) Software
-7) Peripheral Devices
-8) Computer Network
-9) Human Resources
-10) Dumb Terminal
-11) Client
-12) Thin Client
-13) Thick Client
-14) Zero Client
-15) Email Server
-16) Router
-17) DNS Server
-18) Firewall
-19) Client-server
+print("""Todays date is 9/26/2022, and these are notes on Ethical & Social Implications of IT & Computer Systems
+Creating a product, or an update to a product, is only part of the equation. Once a product is created, there is still a process for release. Let's look a little into that.
+-- MENU --
+''''''''''
+Please choose on of the options below, and press enter.
+1) Quick Pre-view
+2) Task 1
+3) Terms related to Social & Ethical Issues 
+in a Networked World
+4) Potential Causes & Effects of IT: Task 2
+5) Task 3
 """)
 
 answer = "empty"
 
 while (answer == "empty"):
+ userchoice = input()
+ if(userchoice == "1"):
+ print(""" Issues of social & ethical significance can arise whenever IT is used. None of these issues are entirely postive or entirely negative. If you look broad enough, at enough facets, you'll find positive and negative impacts somewhere across an ethical or social aspect. 
+ It shouldn't be taken lightly though, not only from the sense of responsibility, but also because the system can affect thousands, millions, or billions of lives depending on the scale of the system, and how long it will be in service. 
+""")
+
+ elif(userchoice == "2"):
+  print("""Choose 2 advancements (not those already discussed in the videos) in IT that have changed how we work and/or live.
+For each, what are some of the effects (pros & cons) of some of these advancements of IT?
+ 
+1. The Advancement of Chess engines:
+ - Allows a higher level of learning 
+ - Allows people to cheat in chess
+ - Allows children to begin learning chess young
+ - Allows people to gain a certain understadning on chess theory
+ - Allows a lot of cheating
+ - A lot of cheating
+2. Photomath
+ - Allows kids like me who have a really shitty math teacher actually learn math
+ - Allows for a monopoly and requiring pay
+ - Allows for cheating
+ - Lots of cheating
+ - Gets math done easier
+ - Kids will become reliant""")
+ print("")
+ print(""" """)
+
+ elif(userchoice == "3"):
+  print("""Add the following terms and definitions to your notes.
+reliability: refers to the operation of hardware, the design of software, the accuracy of data or the correspondence of data with the real world. Data may be unreliable if it has been entered incorrectly or if it becomes outdated. The reliability of machines, software and data determines our confidence in their value.
+integrity: refers to safeguarding the accuracy and completeness of stored data. Data lacks integrity when it has been changed accidentally or tampered with. Examples of data losing integrity are where information is duplicated in a relational database and only one copy is updated or where data entries have been maliciously altered.
+inconsistency: refers to the protection of hardware, software, machines and networks from unauthorized access. Security measures include restricted access to machines and networks for certain employees or to prevent access by hackers. The degree of security of information systems largely determines society’s confidence in the information contained in the systems.
+security: refers to the protection of hardware, software, machines and networks from unauthorized access. Security measures include restricted access to machines and networks for certain employees or to prevent access by hackers. The degree of security of information systems largely determines society’s confidence in the information contained in the systems.
+privacy and anonymity: Privacy is the ability of individuals and groups to determine for themselves when, how and to what extent information about themselves is shared with others. At its extreme, privacy becomes anonymity when, for instance, a person uses it to conceal his or her true identity in order to cyber-bully someone else. Conversely, excessive privacy could also conceal the perpetrators of criminal, terrorist or computer hacking acts from law enforcement agencies.
+I.P.:includes ideas, discoveries, writings, works of art, software, collections and presentations of data. Copyright, trademarks and patents exist to protect intellectual property. However, the easy and accurate duplication methods made available through IT can undermine such protection.
+Digital Divide / Equality of Access: The growth of the use of IT systems has led to disparities in the use of, and access to, information technologies. Disparities exist not only internationally between countries, but also within countries between different socio-economic groups as well as within what may appear to be relatively homogenous groups. This may lead to groups or individuals without access to IT being disadvantaged. For example, while telelearning may bring previously unavailable opportunities to everyone’s doorstep, factors such as the cost and availability of hardware, software or access to the internet may create a “digital divide”.
+surveillance: Policies often include some form, even if limited, of surveillance. This may be to protect the general population, or if at a place of business or school, may be to help protect and keep the network stable, or to ensure that the technology is being used appropriately. Watch this video from LinkedIn Learning for a bit more discussion on policy related to surveillance.
+globalization & cultural diversity:
+means the diminishing importance of geographical, political, economic and cultural boundaries. IT has played a major role in reducing these boundaries. For example, any dramatic event anywhere in the world can be broadcast almost instantly by television or on the internet. However, the new “global village” may lead to the extinction of minority languages.
+I.T. Policies: This video from LinkedIn Learning will give you more insight into the different levels and documents and current practices in Policy in industry.
+standards & protocols: Policies often include some form, even if limited, of surveillance. This may be to protect the general population, or if at a place of business or school, may be to help protect and keep the network stable, or to ensure that the technology is being used appropriately. Watch this video from LinkedIn Learning for a bit more discussion on policy related to surveillance.
+people & machines: The use of IT systems brings significant advantages, for instance in ease of use, being available 24/7, or through its use rather than exposing humans to a potentially hazardous environment. However, this can raise concerns about the rate at which technology is being introduced and issues that may arise from insufficient testing in critical situations such as air traffic control. The ultimate fear of many people is that future systems will be programmed to make decisions that would be better taken by humans, such as the decision to deploy nuclear weapons.
+There are also social impacts such as internet addiction, where people feel that they can never get away from IT and are trapped on a “digital treadmill”.
+Digital Citizenship:can be defined as appropriate behaviour that represents the responsible, ethical and legal approach that individuals take in any situation with respect to the use of IT. Digital citizenship permeates, in one way or another, all of the preceding social and ethical considerations.
+""")
+
+ elif(userchoice == "4"):
+  print("""Add the following terms and definitions to your notes.
+Constant Exposure to Communication Technology: Citizens better informed about the world, their community, friends, and family. However, there can be psychological impacts including stress, poor concentration, and short attention span. Additionally, this may also create additional obstacles to personal 1-to-1 relationships. 
+The Internet: Access to nearly immediate access to new tools, new ways to obtain information, new ways to share information. However, this can result in internet addiction, neglecting real life, and social media obsession.
+Gaming: Interactive medium capable of telling stories and providing intellectual stimulation. Also can improve hand-eye coordination. Users may have lower levels of concentration, sleep deprivation, social desensitization, addiction, and neglect real life and educational / personal development.
+Developments of Smartphones: Wide variety of uses is cheaper than the cost of buying devices that handle all the uses individually; gps, computer, internet, gaming platform, movies, camera, phone, etc. Smartphones have a continual increasing cost of the hardware, and the frequency at which they are replaced results in lots of e-waste.
+Over use of Mobile Devices: Easier communication with family. Easier communication in emergencies. However, can be an obstacle to in-person communication. Additionally, there may be possible health consequences, issues with addiction, and increased accidents due to a lack of awareness while in-use (car accidents for example).
+""")
+ 
+ elif(userchoice == "5"):
+  print("""1. Pros & Cons
+There is a vast amount of scientific information and educational material available on the WWW. 
+Discuss the advantages and disadvantages of students having unrestricted and unsupervised access to a PC that is connected to the Internet.
+I will tell you a story. During my E.E my chromebook was restircited and did not allow any chess related activities, this was horrible because IIIIII NNNNEEEEEEDDDDDEEEEDDDD to research chess and I couldn't. Fuck that, so I brought my own chorme book, and worked. some times restriction is a bad thing. 
+2. Choose the topic...
+that you already feel you know a lot about. Tell me what you know about it. Gaming: Interactive medium capable of telling stories and providing intellectual stimulation. Also can improve hand-eye coordination. Users may have lower levels of concentration, sleep deprivation, social desensitization, addiction, and neglect real life and educational / personal development.
+3. Choose the topic...
+that you feel you know the least about it. Look over a resource about it. Provide the link to the resource, and tell me what you learned about it. """)
+ print("The Internet: Access to nearly immediate access to new tools, new ways to obtain information, new ways to share information. However, this can result in internet addiction, neglecting real life, and social media obsession.""")
+
+
+ else: 
+  print("INVALID INPUT, please try again")
+  answer = "empty"
   userchoice = input()
-  answer = "chosen"
-  
-  if(userchoice == "1"):
-    print("Patches are used by software companies to update applications by fixing known bugs and vulnerabilities. Be aware that patches may introduce new bugs.")
-  elif(userchoice == "2"):
-    print("Upgrades contain a novel function or characteristic, as well as cumulative bug fixes. Upgrades often require an additional purchase.")
-  elif(userchoice == "3"):
-    print("Updates improve a product in a minor way, adding some new functionality or fixing a bug. Updates are usually free. Updates may be obtained manually, or may also be automatic through an internet connection..")
-  elif(userchoice == "4"):
-    print("Releases are final, working versions of software applications. Prior to release, they should undergo alpha and beta testing. A release is a new product, or an upgraded product.")
-  elif(userchoice == "5"):
-    print("Hardware is the physical components of the system, including chips and processors.")
-  elif(userchoice == "6"):
-    print("Software is the set of instructions that make the computer system do something useful, called programs.")
-  elif(userchoice == "7"):
-    print("Peripheral devices are devices that are outside of the computer, which can be input devices, output devices, and storage devices. Input devices allow data to be transmitted ot the computer, such as a keyboard, mouse or a microphone. Output devices allow the computer processor to output information, such as headphones and speakers. Storage devices are any piece of hardware that can store data outside the processor.")
-  elif(userchoice == "8"):
-    print("A computer network is a set of computer systems that are interconnected and share resources, as well as data. For example: Local Area Network, Wide Area Network, etc. A network typically connects servers and clients together.")
-  elif(userchoice == "9"):
-    print("Human resources are the people who are part of (or could be part of) an organization, business, or economy.")
-  elif(userchoice == "10"):
-    print("A dumb terminal is a very simple monitor with very little processing power.")
-  elif(userchoice == "11"):
-    print("A client is a computer that connects to and uses the resources of a remote computer or server.")
-  elif(userchoice == "12"):
-    print("A thin client is a virtual desktop computing model, meaning that most computing resources are stored on and accessed form a central server and not from the physical device. Thin clients are more secure than thick clients because they are more secure, but are dependable on a continuous network connection.")
-  elif(userchoice == "13"):
-    print("A thick client is a networked computer system, meaning that most computing resources are installed locally on a physical device rather than distributed over a network. Most company computers are thick clients because it allows employees to work offline. However, it isn't the best for security.")
-  elif(userchoice == "14"):
-    print("A zero client is server-based computing model where the end user's computing device has no local device.")
-  elif(userchoice == "15"):
-    print("An email server is a computer system that sends and receives emails.")
-  elif(userchoice == "16"):
-    print("A router allows devices to connect to the internet and share data. It passes information between one or more computer networks. One a packet arrives at a router, the router identifies the packet's destination and calculates the best way for it to get there.")
-  elif(userchoice == "17"):
-    print("A DNS (Domain Name System) server is a naming database that locates and translates internet domain names into IP addresses.")
-  elif(userchoice == "18"):
-    print("A firewall is a hardware or software network infrastructure that controls data flow access among network entities. The firewall is mainly used to offer protection and limit access to a network. The ideal firewall system configuration consists of hardware and software components.")
-  elif(userchoice == "19"):
-    print("A client-server is a relationship in which one program (the client) requests a service or resource from another program (the server).")
-  else:
-    print("That's not one of the options, silly!")
-    answer = "empty"
