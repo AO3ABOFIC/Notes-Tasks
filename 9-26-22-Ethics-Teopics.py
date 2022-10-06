@@ -1,5 +1,3 @@
-9/22/22 - components thingy mabobby
-
 print("""Components of a Computer System
 - MENU -
 `````````
