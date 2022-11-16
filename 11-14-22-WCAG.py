@@ -6,7 +6,7 @@ Please choose one of the options below, and press enter.
 2) When was WCAG released?
 3) Who works on WCAG?
 4) What is WCAG 2.1 in comparison to WCAG 2.0?
-5) 
+5) Two guidelines or focuses related to WCAG 2 or 3
 6) SaaS accessibility preference
 """)
 
