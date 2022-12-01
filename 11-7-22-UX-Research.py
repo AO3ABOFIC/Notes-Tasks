@@ -19,6 +19,8 @@ Please choose one of the options below, and press enter.
 12) The Gestalt Principles
 13) Acessability
 14) Usability
+15) Do you think any of today's content would be useful for your IA? Do you plan to use any of them for your 
+IA?
 """)
 
 answer = "empty"
@@ -70,6 +72,8 @@ elif(userchoice == "13"):
   print("how usable is the item to specific people that could share a feature that would make it harder for it to work for them: reflection tech with poeple of color, people with disabilities, etc. ")
 elif(userchoice == "14"):
   print("how usable is the technology overall baring minorty groups")
+elif(userchoice == "15"):
+  print("A wireframe would most likely prove useful in organizing the vast amounts of information I plan on displaying on a single page, I would prevent the design from growing cluttered, overly complex, or being visually unappealing to a wide range of people. That being said, I feel as though a prototype would develop naturally; it is safe to assume my first attempt at a functional product will be more reminiscent of a prototype than an official product. There are bound to be issues along the way but these tools should help mitigate them to a notable extent.")
   
 else:
   print("That's not one of the options, silly!")
