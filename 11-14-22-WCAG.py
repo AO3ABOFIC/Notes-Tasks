@@ -27,7 +27,7 @@ while (answer == "empty"):
   elif(userchoice == "5"):
     print("""I think that WCAG 3's accessibility guidelines of Guidance for more disability groups & Starts from user needs of disability groups instead of technical solutions are not worthy. These accessibility guidelines are extremely important as they move the focus towards making technology even more available for disabled people and accommodating for their needs rather than a technological focus that will persist naturally regardless of focus.""")
   elif(userchoice == "6"):
-    print("""My favorite accessibility menu on the different SaaS services is the second one. The second one has the most options to tailor the website to the user's needs and provides different colors for certain features, which sets it apart from the first one. While the third option also offers different colors, the colors are very bright, which can be distracting or impede a user's ability to navigate the site.""")
+    print("""My favorite accessibility menu on the different SaaS services is the second one, 'accessiBe.com'. The website has the most options to tailor the website to the user's needs and provides different colors for certain features, which sets it apart from the first one. While the third option also offers different colors, the colors are very bright, which can be distracting or impede a user's ability to navigate the site.""")
   else:
     print("That's not one of the options, silly!")
     answer = "empty"
